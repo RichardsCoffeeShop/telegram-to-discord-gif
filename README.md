@@ -1,4 +1,8 @@
-# Telegram Gifs For Discord!
+# Telegram Gifs (and stickers too) For Discord!
+
+<img src="./.github/preview.png"/>
+
+---
 
 ## Run With Docker
 
@@ -24,13 +28,8 @@
 
 how create telegram bot:
 
-+ https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token
+- https://www.siteguarding.com/en/how-to-get-telegram-bot-api-token
 
 how create a webhook on a Discord channel:
 
-+ https://www.youtube.com/watch?v=fKksxz2Gdnc
-
-
-## screen shots:
-
-<img src="./github/Screenshot%202023-02-19%20134202.png"/>
+- https://www.youtube.com/watch?v=fKksxz2Gdnc
