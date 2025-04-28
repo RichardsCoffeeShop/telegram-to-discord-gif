@@ -8,7 +8,7 @@
 
 `1. run config-env.sh`
 
-`2. docker-compose up -d`
+`2. docker compose up -d`
 
 ## run Without Docker
 
