@@ -18,7 +18,7 @@ bot.api.config.use(hydrateFiles(bot.token));
 
 const filesPath: string = "./files";
 
-bot.on([":video", ":animation", ":sticker"], async (ctx) => {
+bot.on([":video", ":animation", ":sticker", ":photo"], async (ctx) => {
   let filename: string | null = null;
   let filenameOutPut: string | null = null;
 
@@ -26,8 +26,9 @@ bot.on([":video", ":animation", ":sticker"], async (ctx) => {
     await ctx.replyWithChatAction("typing");
 
     const file = await ctx.getFile();
+    const extension = file.file_path?.split(".").pop();
 
-    filename = getUUId() + ".mp4";
+    filename = getUUId() + "." + extension;
 
     filenameOutPut = getUUId() + ".gif";
 
