@@ -16,7 +16,7 @@
 
 `2. install git`
 
-`3. git clone https://github.com/sajjadmrx/telegram-to-discord-gif.git`
+`3. git clone https://github.com/RichardsCoffeeShop/telegram-to-discord-gif`
 
 `4. npm install`
 
